@@ -26,4 +26,13 @@ public class Users {
 	
 	@Column(name = "password")
 	private String password;
+	
+	@Column(name = "provider")
+	private String provider;
+	
+	@Column(name = "provider_id")
+	private String provider_id;
+	
+	@Column(name = "social_id")
+	private String social_id;
 }
